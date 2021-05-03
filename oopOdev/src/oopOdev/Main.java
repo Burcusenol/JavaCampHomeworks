@@ -12,7 +12,6 @@ public class Main {
 		course2.instructorName="Engin Demiroð";
 		course2.courseDetail="Nitelikli Yazýlým Kampý";
 
-		Instructor instructor=new Instructor(1,"Burcu Þenol");
 		
         Course[] courses= {course1,course2};
 		
