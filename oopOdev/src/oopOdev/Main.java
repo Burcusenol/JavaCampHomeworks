@@ -10,7 +10,7 @@ public class Main {
 		course2.id=2;
 		course2.name="Java";
 		course2.instructorName="Engin Demiroğ";
-		course2.courseDetail="Nitelikli Yazılım Kampı";
+		course2.courseDetail="Nitelikli Yazılım Kampı"; 
 
 		
         Course[] courses= {course1,course2};
