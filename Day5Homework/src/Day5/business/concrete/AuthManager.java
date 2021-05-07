@@ -10,9 +10,11 @@ public class AuthManager implements AuthService {
 
 	UserService userService;
 	
+	
 	public AuthManager(UserService userService) {
 		super();
 		this.userService = userService;
+		
 	}
 
 	@Override
