@@ -5,7 +5,6 @@ import Day5.googleLogger.GoogleLoggerManager;
 
 public class GoogleMailServiceAdapter implements GoogleEmailService {
 
-	
 
 	@Override
 	public void send(String email, String message) {

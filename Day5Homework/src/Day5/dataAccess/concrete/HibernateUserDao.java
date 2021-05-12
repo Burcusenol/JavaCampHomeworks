@@ -38,7 +38,6 @@ public class HibernateUserDao implements UserDao{
 		
 	}
 
-	
 
 	@Override
 	public List<User> getAll() {

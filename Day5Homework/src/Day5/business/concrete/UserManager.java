@@ -38,10 +38,6 @@ public class UserManager implements UserService {
 		}
 		
 		
-		
-		
-		
-		
 	}
 
 	@Override
