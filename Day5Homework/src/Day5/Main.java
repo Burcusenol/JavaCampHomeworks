@@ -27,7 +27,7 @@ public class Main {
 		
 		userManager.getAll();
 		
-		authManager.register(user1);
+		//authManager.register(user1);
 		
 		
 		UserDto userDto=new UserDto();
