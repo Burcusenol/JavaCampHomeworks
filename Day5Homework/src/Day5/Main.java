@@ -19,7 +19,7 @@ public class Main {
 		
 		UserManager userManager=new UserManager(new HibernateUserDao(),  new GoogleMailServiceAdapter());
 			
-		userManager.add(user);
+		//userManager.add(user);
 		
 		//userManager.add(user1);
 		
@@ -27,7 +27,7 @@ public class Main {
 		
 		userManager.getAll();
 		
-		//authManager.register(user1);
+		authManager.register(user1);
 		
 		
 		UserDto userDto=new UserDto();
@@ -38,8 +38,8 @@ public class Main {
 		
 		
 		UserDto userDto1=new UserDto();
-		userDto.setEmail("Abs");
-		userDto.setPassword("123456");
+		userDto1.setEmail("Abs");
+		userDto1.setPassword("123456");
 		
 		authManager.login(userDto1);
 	
