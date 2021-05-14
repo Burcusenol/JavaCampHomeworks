@@ -15,7 +15,7 @@ public class Main {
 		customer.setFirstName("Burcu");
 		customer.setLastName("Þenol");
 		customer.setDateofBirth(LocalDate.of(1998, 02, 07));
-		customer.setNationalityId("54634460518");
+		customer.setNationalityId("54634504518");
 		
 		customerManager.save(customer);
 	}
