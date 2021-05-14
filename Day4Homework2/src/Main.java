@@ -3,7 +3,6 @@ import java.time.LocalDate;
 import abstracts.BaseCustomerManager;
 import adapters.MernisServiceAdapter;
 import concrete.NeroCustomerManager;
-import concrete.StarbucksCustomerManager;
 import entities.Customer;
 
 public class Main {
